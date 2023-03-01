@@ -45,7 +45,7 @@ ALLOWED_HOSTS = ['bluuuu.herokuapp.com','127.0.0.1']
 
 # Application definition
 
-CSRF_TRUSTED_ORIGINS = ['bluuuu.herokuapp.com']
+CSRF_TRUSTED_ORIGINS = ['https://bluuuu.herokuapp.com/']
 
 # During development/for this tutorial you can instead set just the base URL
 # CSRF_TRUSTED_ORIGINS = ['https://*.railway.app']
@@ -53,7 +53,7 @@ CSRF_TRUSTED_ORIGINS = ['bluuuu.herokuapp.com']
 # add installed app "auctions" to list of available apps
 INSTALLED_APPS = [
     'auctions',
-    'django.contrib.admin',
+    # 'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
