@@ -1,1 +1,1 @@
-gunicorn = gunicorn -w 3 test:commerce
+web: gunicorn commerce.wsgi
