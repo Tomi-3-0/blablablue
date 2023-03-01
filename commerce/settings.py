@@ -53,7 +53,7 @@ CSRF_TRUSTED_ORIGINS = ['https://bluuuu.herokuapp.com/']
 # add installed app "auctions" to list of available apps
 INSTALLED_APPS = [
     'auctions',
-    # 'django.contrib.admin',
+    'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
