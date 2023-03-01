@@ -1,1 +1,1 @@
-web: gunicorn commerce.wsgi --log-file -
+gunicorn = gunicorn -w 3 test:commerce
